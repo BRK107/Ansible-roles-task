@@ -1,8 +1,0 @@
----
-- hosts: all
-  become: yes
-  tasks:
-  - name: deploy war file from nexus
-    get_url:
-      url:
-      dest:

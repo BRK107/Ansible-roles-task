@@ -4,5 +4,5 @@
   tasks:
   - name: deploy war file from nexus
     get_url:
-      url:http://100.25.180.168:8081/nexus/service/local/repositories/ram/content/java/sparkjava-hello-world/1.0.0/sparkjava-hello-world-1.0.0.war
+      url: http://100.26.231.101:8081/nexus/service/local/repositories/ram/content/java/sparkjava-hello-world/1.0.0/sparkjava-hello-world-1.0.0.war
       dest: /usr/share/tomcat/webapps
